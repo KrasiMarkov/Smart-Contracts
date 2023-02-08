@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.4.24+commit.e67f0147"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "counter",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "incrementCounter",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"IntroToEthereum_Lab/Counter.sol": "Counter"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"IntroToEthereum_Lab/Counter.sol": {
+			"keccak256": "0x4b7091f3758aaa318aca740f1b0a0a3211314e8b42435070d044d0aa368968cf",
+			"urls": [
+				"bzzr://3d1bff4bb85162159a843c7b3fb0c4be5cf6dbcbfe5df907d8d7258107c81ecd"
+			]
+		}
+	},
+	"version": 1
+}
