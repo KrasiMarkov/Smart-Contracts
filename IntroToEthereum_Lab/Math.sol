@@ -6,15 +6,15 @@ contract Math {
         return a + b;
     }
 
-    function Sub(uint256 a, uint256 b) public returns (uint256){
+    function Subtract(uint256 a, uint256 b) public returns (uint256){
        return a - b;
     }
 
-    function Mul(uint256 a, uint256 b) public returns (uint256) {
+    function Multiply(uint256 a, uint256 b) public returns (uint256) {
         return a * b;
     }
 
-    function Div(uint256 a, uint256 b) public returns(uint256){
+    function Divide(uint256 a, uint256 b) public returns(uint256){
       return a / b;
     }
 }
