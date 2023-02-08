@@ -5,3 +5,9 @@ contract AddNumbers {
         return a + b;
     }
 }
+
+contract Subtract {
+    function Sub(uint256 a, uint256 b) public returns (uint256){
+       return a - b;
+    }
+}
