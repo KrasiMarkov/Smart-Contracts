@@ -1,0 +1,46 @@
+{
+	"compiler": {
+		"version": "0.4.24+commit.e67f0147"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "test",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Basics_of_contracts/Visibility.sol": "Test"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Basics_of_contracts/Visibility.sol": {
+			"keccak256": "0xc06988a9b4dbfdf320637f40dfe34f05ba256b6fa0b7d6b373dfbe9a4b88cbe3",
+			"urls": [
+				"bzzr://64bd22030aa9f99da449f0161f6f8f0b23f1b0687c23819f506376072e3c9103"
+			]
+		}
+	},
+	"version": 1
+}
