@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.4.24+commit.e67f0147"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "balance",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "Receive",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Basics_of_contracts/SendTest.sol": "Receiver"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Basics_of_contracts/SendTest.sol": {
+			"keccak256": "0x4aa88ab283f1acde430796b02bcf963fd04c6bb6dc3d00b9a521723456e71c35",
+			"urls": [
+				"bzzr://271ea5e0bc339a89d1478b79a5465c6b1f41ad8de49162ac4eb2477db5d3e6ee"
+			]
+		}
+	},
+	"version": 1
+}

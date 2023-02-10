@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.4.24+commit.e67f0147"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_receiver",
+						"type": "address"
+					}
+				],
+				"name": "transfer",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_receiver",
+						"type": "address"
+					}
+				],
+				"name": "send",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "payments",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Basics_of_contracts/SendTest.sol": "Sender"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Basics_of_contracts/SendTest.sol": {
+			"keccak256": "0x4aa88ab283f1acde430796b02bcf963fd04c6bb6dc3d00b9a521723456e71c35",
+			"urls": [
+				"bzzr://271ea5e0bc339a89d1478b79a5465c6b1f41ad8de49162ac4eb2477db5d3e6ee"
+			]
+		}
+	},
+	"version": 1
+}
