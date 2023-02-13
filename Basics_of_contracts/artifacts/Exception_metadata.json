@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.4.24+commit.e67f0147"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "testAssert",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "testRequire",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Basics_of_contracts/Exceptions.sol": "Exception"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Basics_of_contracts/Exceptions.sol": {
+			"keccak256": "0xce98243764879e310eb0c77eed5bf41f10566df8aafd6127f47f6c690eb90c73",
+			"urls": [
+				"bzzr://4ba76eec7e9e8e44e1a93d2e096bb52f6a0c4d16d66d0f389f910f438a4653a3"
+			]
+		}
+	},
+	"version": 1
+}
