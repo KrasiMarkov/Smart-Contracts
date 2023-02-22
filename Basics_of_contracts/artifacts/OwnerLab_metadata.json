@@ -113,9 +113,9 @@
 	},
 	"sources": {
 		"Basics_of_contracts/Ownership.sol": {
-			"keccak256": "0xb7681b357ad61dba1eca4af56b914c93f363d26e38c8269dd1b16c95d955d504",
+			"keccak256": "0xde12c19d958546d843b3405a916619be9aebbd57363753ce1f838470d4c4a016",
 			"urls": [
-				"bzzr://0a3ee161448fab4590c4b5df3289b2ae11fed1aa1efd2fc0721bf5955f17763d"
+				"bzzr://599c51f699791e76db1285f57f5bba4a0d7eff0e874f4ec3e316f3abff2d50fe"
 			]
 		}
 	},

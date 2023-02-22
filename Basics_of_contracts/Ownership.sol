@@ -33,7 +33,7 @@ contract OwnerLab {
 
     function transferOwnership(address newOwner) public onlyOwner {
 
-        require(newOwner != address(0x0))
+        require(newOwner != address(0x0));
 
         emit OwnershipTransferred (owner, newOwner); 
 
