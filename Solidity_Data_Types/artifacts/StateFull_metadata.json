@@ -9,11 +9,20 @@
 				"constant": false,
 				"inputs": [
 					{
-						"name": "_color",
-						"type": "uint256"
+						"name": "_state",
+						"type": "uint8"
 					}
 				],
-				"name": "choose",
+				"name": "changeState",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "increments",
 				"outputs": [],
 				"payable": false,
 				"stateMutability": "nonpayable",
@@ -22,7 +31,29 @@
 			{
 				"constant": true,
 				"inputs": [],
-				"name": "getChoice",
+				"name": "counter",
+				"outputs": [
+					{
+						"name": "counter",
+						"type": "uint256"
+					},
+					{
+						"name": "timestamp",
+						"type": "uint256"
+					},
+					{
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "state",
 				"outputs": [
 					{
 						"name": "",
@@ -34,27 +65,10 @@
 				"type": "function"
 			},
 			{
-				"constant": true,
 				"inputs": [],
-				"name": "getDefaultChoice",
-				"outputs": [
-					{
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"payable": false,
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"constant": false,
-				"inputs": [],
-				"name": "chooseRed",
-				"outputs": [],
 				"payable": false,
 				"stateMutability": "nonpayable",
-				"type": "function"
+				"type": "constructor"
 			}
 		],
 		"devdoc": {
@@ -66,7 +80,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Solidity_Data_Types/Enums.sol": "Enumerations"
+			"Solidity_Data_Types/State.sol": "StateFull"
 		},
 		"evmVersion": "byzantium",
 		"libraries": {},
@@ -77,10 +91,10 @@
 		"remappings": []
 	},
 	"sources": {
-		"Solidity_Data_Types/Enums.sol": {
-			"keccak256": "0x98934e0cd0b74723b8ff5555f761a9ddb6c7c65c876334212da65856b1c8409a",
+		"Solidity_Data_Types/State.sol": {
+			"keccak256": "0x6b226ca4257eebd5417eb2f4f821ea00e50d8d1b5591ab8c4cfe53ff32cb4d5e",
 			"urls": [
-				"bzzr://363ea53d8db645bd0efc81665387a6c59ca2f2a6c4eb71030d9ab55cf41d5f44"
+				"bzzr://7abe420c88dd880c568b29ed68eceb82b371c48813dcdd562e5bd65d6332bdca"
 			]
 		}
 	},
